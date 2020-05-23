@@ -25,7 +25,7 @@ public class SupplyDemandController {
     }
 
     @DeleteMapping("/unsubscribe")
-    public void subscribe(@RequestBody UnSubAction us){
+    public void unsubscribe(@RequestBody UnSubAction us){
         util.unsubscribe(us.getName(), us.getCat());
     }
 
