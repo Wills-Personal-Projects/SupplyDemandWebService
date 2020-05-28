@@ -72,6 +72,10 @@ public class SupplyDemandUtil {
         return brokerRef.getNotifications();
     }
 
+    public void deleteNotifs(){
+        brokerRef.reset();
+    }
+
     public void utilReset(){
         retailers.clear();
         producers.clear();
