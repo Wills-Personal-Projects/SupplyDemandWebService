@@ -73,6 +73,7 @@ public class SupplyDemandUtil {
     }
 
     public void deleteNotifs(){
+
         brokerRef.reset();
     }
 
